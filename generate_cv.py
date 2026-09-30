@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Generate cv.typ from the website's markdown files using the modern-cv Typst package.
 
-Reads structured data from pages/about.md, pages/research.md, pages/software.md,
-pages/teaching.md, pages/talks.md, pages/awards.md, and pages/services.md, then
+Reads structured data from pages/about.md, pages/research.md, pages/projects.md,
+pages/talks.md, and pages/awards.md, then
 generates a complete Typst CV file using the modern-cv package for styling.
 
 Usage: python generate_cv.py
@@ -44,8 +44,11 @@ def _typst_font_value(font):
 
 
 def read_file(base, filename):
-    """Read a markdown file, stripping YAML frontmatter."""
-    text = (base / filename).read_text(encoding="utf-8")
+    """Read a markdown file, stripping YAML frontmatter. Missing files read as empty."""
+    path = base / filename
+    if not path.exists():
+        return ""
+    text = path.read_text(encoding="utf-8")
     if text.startswith("---"):
         end = text.find("---", 3)
         if end != -1:
@@ -273,28 +276,22 @@ def gen_preamble():
   font: {_typst_font_value(CV_FONT)},
   header-font: {_typst_font_value(CV_HEADER_FONT)},
   author: (
-    firstname: "Jane",
-    lastname: "Doe",
-    email: "jane.doe@example.com",
-    phone: "(+1) 234-567-8901",
-    homepage: "https://example.com",
-    github: "username",
-    address: "123 Science Building, Example University, Anytown, ST 12345",
+    firstname: "Sokeang",
+    lastname: "Hoeun",
+    email: "sokeang.geoinfo@gmail.com",
+    homepage: "https://sokeang-h.github.io/sokeang_online_profile",
+    github: "SOKEANG-H",
+    address: "Phnom Penh, Cambodia",
     positions: (
-      "Assistant Professor",
-      "Data Scientist",
-    ),
-    custom: (
-      (text: "username", icon: "twitter", link: "https://twitter.com/username"),
-      (text: "Jane Doe", icon: "linkedin", link: "https://www.linkedin.com/in/username"),
-      (text: "Jane Doe", icon: "google-scholar", link: "https://scholar.google.com"),
-      (text: "0000-0000-0000-0000", icon: "orcid", link: "https://orcid.org/0000-0000-0000-0000"),
+      "Statistics & Geospatial Analytics",
+      "Remote Sensing",
+      "Eco-Epidemiology",
     ),
   ),
   profile-picture: none,
   date: datetime.today().display(),
   language: "en",
-  paper-size: "us-letter",
+  paper-size: "a4",
   accent-color: default-accent-color,
   colored-headers: true,
   show-footer: true,
@@ -304,7 +301,7 @@ def gen_preamble():
 #set heading(bookmarked: true)
 
 // Set PDF document title
-#set document(title: "Jane Doe - CV")"""
+#set document(title: "Sokeang Hoeun - CV")"""
 
 
 def gen_education(about):
@@ -330,20 +327,42 @@ def gen_education(about):
     return "\n\n".join(lines)
 
 
-def gen_appointments(about):
-    """Generate Academic Appointments section from about.md."""
-    section = extract_section(about, "## Appointments")
+def gen_experience(about):
+    """Generate Professional Experience section from about.md."""
+    section = extract_section(about, "## Experience")
     rows = parse_table(section)
     if not rows:
         return ""
-    lines = ["= Academic Appointments\n"]
-    items = []
+    lines = ["= Professional Experience\n"]
     for row in rows:
-        period = escape_typst(row.get("Period", ""))
+        period = strip_markdown(row.get("Period", ""))
         position = escape_typst(row.get("Position", ""))
-        items.append(f"  - {period}: {position}")
-    lines.append("#resume-item[\n" + "\n".join(items) + "\n]")
+        focus = escape_typst(row.get("Focus", ""))
+        lines.append(
+            f"#resume-entry(\n"
+            f"  title: [{position}],\n"
+            f"  date: [{period}],\n"
+            f"  description: [{focus}],\n"
+            f")"
+        )
     return "\n\n".join(lines)
+
+
+def gen_table_section(text, heading, cv_title):
+    """Generate a section from a two-column markdown table under a heading."""
+    result = table_to_items(extract_section(text, heading))
+    if not result:
+        return ""
+    return f"= {cv_title}\n\n{result}"
+
+
+def gen_research_projects(research):
+    """Generate Research Projects section from research.md."""
+    bullets = parse_bullets(extract_section(research, "## Research Projects"))
+    if not bullets:
+        return ""
+    items = [f"  - {escape_typst(b)}" for b in bullets]
+    return "= Research Projects\n\n#resume-item[\n" + "\n".join(items) + "\n]"
 
 
 def gen_research_areas(research):
@@ -383,7 +402,7 @@ def gen_awards(awards_text):
     rows = parse_table(awards_text)
     if not rows:
         return ""
-    lines = ["= Awards & Honors\n"]
+    lines = ["= Awards & Scholarships\n"]
     items = []
     for row in rows:
         year = strip_markdown(row.get("Year", ""))
@@ -581,9 +600,14 @@ def _gen_talks_section(talks, heading, cv_title, include_summary=False):
     return "\n".join(lines)
 
 
-def gen_workshops(talks):
-    """Generate Workshops section from talks.md."""
-    return _gen_talks_section(talks, "## Workshop Host", "Workshops")
+def gen_training(talks):
+    """Generate Training Delivered section from talks.md."""
+    return _gen_talks_section(talks, "## Training Delivered", "Training Delivered")
+
+
+def gen_workshops_attended(talks):
+    """Generate Workshops Attended section from talks.md."""
+    return _gen_talks_section(talks, "## Workshops Attended", "Workshops Attended")
 
 
 def gen_invited_talks(talks):
@@ -657,30 +681,24 @@ def main():
 
     about = read_file(pages, "about.md")
     research = read_file(pages, "research.md")
-    software = read_file(pages, "software.md")
-    teaching = read_file(pages, "teaching.md")
+    projects = read_file(pages, "projects.md")
     talks = read_file(pages, "talks.md")
     awards = read_file(pages, "awards.md")
-    services = read_file(pages, "services.md")
 
     sections = [
         gen_preamble(),
+        gen_experience(about),
         gen_education(about),
-        gen_appointments(about),
+        gen_table_section(about, "## Skills", "Skills"),
+        gen_table_section(about, "## Languages", "Languages"),
         gen_research_areas(research),
-        gen_patents(research),
-        gen_awards(awards),
-        gen_books(research),
+        gen_research_projects(research),
         gen_publications(research),
-        gen_grants(research),
-        gen_software(software),
-        gen_teaching(teaching),
-        gen_mentoring(teaching),
-        gen_workshops(talks),
-        gen_invited_talks(talks),
-        gen_conf_proceedings(talks),
+        gen_software(projects),
+        gen_training(talks),
         gen_conf_presentations(talks),
-        gen_services(services),
+        gen_workshops_attended(talks),
+        gen_awards(awards),
     ]
 
     output = "\n\n".join(s for s in sections if s)

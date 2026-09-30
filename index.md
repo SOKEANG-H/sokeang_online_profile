@@ -1,7 +1,7 @@
 ---
-title: Jane Doe
-subtitle: Open-Source Software Engineer & Data Scientist
-description: Jane Doe, Assistant Professor at Example University, builds open-source tools for data science and machine learning.
+title: SOKEANG HOEUN
+subtitle: Statistics & Geospatial Analytics
+description: Sokeang Hoeun, Technical Specialist in statistics and geospatial analytics at FAO Cambodia, applies remote sensing, GIS, and statistical modelling to agriculture, food security, and health.
 # thumbnail: images/profile-thumbnail.webp
 ---
 
@@ -11,7 +11,7 @@ description: Jane Doe, Assistant Professor at Example University, builds open-so
 :columns: 12 12 4 4
 
 ```{image} logo.png
-:alt: Jane Doe
+:alt: Sokeang Hoeun
 :width: 95%
 ```
 
@@ -20,101 +20,51 @@ description: Jane Doe, Assistant Professor at Example University, builds open-so
 :::{grid-item}
 :columns: 12 12 8 8
 
-**Software Engineer** | **Data Scientist**
+**Technical Specialist** | **Statistics & Geospatial Analytics**
 
-[Department of Computer Science](https://example.com/cs), Example University
+[Department of Digital Transformation](https://www.fao.org/cambodia/en), FAO Cambodia
 
-[123 Science Building](https://maps.google.com), Anytown, ST 12345
+Phnom Penh, Cambodia
 
-[jane.doe@example.com](mailto:jane.doe@example.com) | [example.com](https://example.com)
+[sokeang.geoinfo@gmail.com](mailto:sokeang.geoinfo@gmail.com)
 
-**Research Interests:** Data Science, Machine Learning, Open-Source Software Development, Cloud Computing
+**Research Interests:** Data Science, Statistics, Machine Learning & Modelling, Open-Source Spatial Analytics, Remote Sensing, Agriculture, Health
 
 [CV (PDF)](cv.pdf) |
-[Google Scholar](https://scholar.google.com) |
-[ORCID](https://orcid.org/0000-0000-0000-0000) |
-[LinkedIn](https://www.linkedin.com/in/username) |
-[GitHub](https://github.com/username) |
-[Twitter](https://twitter.com/username)
+[GitHub](https://github.com/SOKEANG-H)
 
 :::
-::::
-
----
-
-## Featured Projects
-
-::::{grid} 2 2 4 4
-
-:::{card}
-:link: https://mystmd.org
-![mystmd](pages/images/myst.webp)
-+++
-**MyST**
-:::
-
-:::{card}
-:link: https://jupyterbook.org
-![jupyter-book](pages/images/jupyter-book.webp)
-+++
-**Jupyter Book**
-:::
-
-:::{card}
-:link: https://jupyter.org
-![jupyter](pages/images/jupyter.webp)
-+++
-**Jupyter**
-:::
-
-:::{card}
-:link: https://python.org
-![python](pages/images/python.webp)
-+++
-**Python**
-:::
-
 ::::
 
 ---
 
 ## Highlights
 
-::::{grid} 2 2 3 4
+::::{grid} 2 2 3 3
 
-:::{card} Publications 📚
+:::{card} About 👤
+:link: pages/about
+Education, experience, and skills
+:::
+
+:::{card} Research 🔬
 :link: pages/research
-10+ Refereed Publications
+Eco-epidemiology, species distribution modelling, remote sensing
 :::
 
-:::{card} Software 💻
-:link: pages/software
-5+ Open-Source Projects
+:::{card} Projects 🛰️
+:link: pages/projects
+Rice monitoring, disease dashboards, suitability mapping
 :::
 
-:::{card} Teaching 🎓
-:link: pages/teaching
-5+ Courses Taught
-:::
-
-:::{card} Talks 🎤
+:::{card} Training & Talks 🎤
 :link: pages/talks
-10+ Invited Talks
+GIS, remote sensing, and R training
 :::
 
 :::{card} Awards 🏆
 :link: pages/awards
-5+ Awards & Honors
-:::
-
-:::{card} Community 🌍
-:link: pages/services
-Professional & institutional service
-:::
-
-:::{card} Blog ✍️
-:link: pages/blog
-Thoughts on research, software, and teaching
+French Government and Royal scholarships
 :::
 
 :::{card} News 📰
@@ -128,9 +78,9 @@ Latest updates and milestones
 
 ## Recent News
 
-- **2026-04-01** - Launched personal website with MyST Markdown
-- **2026-03-15** - Published new paper on machine learning
-- **2026-02-01** - Released version 2.0 of open-source project
-- **2026-01-10** - Received Best Paper Award at Conference 2026
+- **2026-09** - Launched this personal website
+- **2026-03** - Delivered a two-week Machine Learning for Rice Yield Modelling training for NIS and MAFF (March and April 2026)
+- **2025-11** - Joined FAO Cambodia as Technical Specialist (Statistics and Geospatial Analytics)
+- **2025-07** - Completed the M.Sc. in Eco-Epidemiology of Emerging Diseases, University of Montpellier
 
 [See all news →](pages/news)

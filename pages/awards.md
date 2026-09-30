@@ -1,22 +1,15 @@
 ---
 title: Awards
-description: Awards and honors recognizing contributions to open-source software, research, and education.
+description: Scholarships and awards received by Sokeang Hoeun.
 keywords:
   - Awards
-  - Honors
-  - Recognition
+  - Scholarships
 ---
 
-# Awards & Honors
-
-A selection of awards and honors recognizing contributions to open-source software, research, and education.
+# Awards & Scholarships
 
 | Year | Award |
 |------|-------|
-| 2026 | Outstanding Research Award, Example University |
-| 2025 | Best Paper Award, International Data Science Conference |
-| 2024 | Open Source Contributor Award, Open Source Foundation |
-| 2023 | Early Career Research Award, College of Sciences, Example University |
-| 2022 | Graduate Teaching Award, Department of Computer Science, Example University |
-| 2021 | NSF CAREER Award |
-| 2020 | Best Dissertation Award, Example University |
+| 2023--2025 | French Government Scholarship for the M.Sc. in Eco-Epidemiology of Emerging Diseases, University of Montpellier |
+| 2017 | Short-term scholarship for the Global Project-Based Learning workshop, Shibaura Institute of Technology, Tokyo, Japan |
+| 2012 | Royal Scholarship for the B.Sc. in Environmental Geoinformatics, under Her Royal Highness Princess Maha Chakri Sirindhorn's Education Project to the Kingdom of Cambodia |

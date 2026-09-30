@@ -1,16 +1,17 @@
 ---
 title: About
-description: Biography, education, and academic appointments of Jane Doe.
+description: Biography, education, professional experience, and skills of Sokeang Hoeun.
 keywords:
   - About
   - Biography
   - Education
-  - Appointments
+  - Experience
+  - Skills
 ---
 
 # About
 
-Dr. Jane Doe is an Assistant Professor in the Department of Computer Science at Example University. Her research focuses on developing open-source tools for data science and machine learning. She is the creator and maintainer of several widely used open-source Python packages. Dr. Doe's work bridges software engineering, data science, and artificial intelligence to make large-scale data analytics more accessible, reproducible, and intelligent.
+Sokeang Hoeun is a geospatial data analyst applying remote sensing, GIS, and statistical modelling to agriculture and food security. As a Technical Specialist in statistics and geospatial analytics at FAO Cambodia, she works with satellite imagery, climate data, and national surveys to support government partners in crop monitoring, natural-resource management, and food-security assessment. Her background is in eco-epidemiology, where she used spatial analysis, ecological modelling, and machine learning to study how environmental and climatic conditions shape emerging disease risk. She brings the same approach to understanding how land use and climate affect agricultural production and access to food. She works mainly in R, Python, QGIS, and Google Earth Engine.
 
 ---
 
@@ -18,16 +19,38 @@ Dr. Jane Doe is an Assistant Professor in the Department of Computer Science at 
 
 | Year | Degree | Institution | Dissertation/Thesis |
 |------|--------|-------------|---------------------|
-| 2020 | **Ph.D.** in Computer Science | Example University, USA | *Scalable machine learning for large-scale data analysis* |
-| 2016 | **M.S.** in Computer Science | Example University, USA | *Distributed computing frameworks for data-intensive applications* |
-| 2014 | **B.S.** in Computer Science | Example College, USA | *Efficient algorithms for graph processing* |
+| 2025 | **M.Sc.** in Eco-Epidemiology of Emerging Diseases | University of Montpellier, France | *Habitat suitability modelling of domestic mosquitoes in Cambodia* (M2); *Ecological and climate determinants of melioidosis in Cambodia* (M1) |
+| 2017 | **B.Sc.** in Environmental Geoinformatics | Prince of Songkla University, Phuket, Thailand | *Applied GIS, back-propagation neural networks, and support vector machines for landslide possibility assessment in Phuket, Thailand* |
 
 ---
 
-## Appointments
+## Experience
 
-| Period | Position |
-|--------|----------|
-| 2023--present | Assistant Professor, Department of Computer Science, Example University |
-| 2020--2023 | Postdoctoral Researcher, Data Science Lab, Example Institute |
-| 2018--2020 | Research Assistant, Department of Computer Science, Example University |
+| Period | Position | Focus |
+|--------|----------|-------|
+| 2025--present | Technical Specialist (Statistics and Geospatial Analytics), Food and Agriculture Organization of the United Nations (FAO), Phnom Penh, Cambodia | Digital rice monitoring and yield estimation; agricultural data systems and dashboards; statistical and machine-learning models; SDG indicators and the Cambodia Agriculture Survey |
+| 2019--2025 | Geomatician, GeoHealth Research Team, French National Research Institute for Sustainable Development (IRD), with Institut Pasteur du Cambodge and the Institute of Technology of Cambodia, Phnom Penh | Spatial analysis and mapping of health data; remote sensing; ecological modelling of mosquito distribution; dengue surveillance dashboard; ECOMORE 2 and FSPI Wat-Health projects |
+| 2024 | GIS & Remote Sensing Analyst (Consultant), Kofi Co., Ltd, Cambodia | Land-use assessment and suitability mapping for coffee plantation in Mondulkiri |
+| 2017--2019 | GIS Specialist, SMWaypoint Co., Ltd, Cambodia | Precision agriculture: satellite and drone image analysis, crop health mapping, field surveys |
+| 2016 | Research Assistant (Internship), Regional Center for Geo-informatics and Space Technology (GISTDA), Khon Kaen, Thailand | Land-use classification; aligning paper maps with satellite imagery |
+
+---
+
+## Skills
+
+| Area | Skills |
+|------|--------|
+| GIS & Cartography | QGIS, ArcGIS, spatial analysis, map production |
+| Remote Sensing | Satellite image classification (Sentinel-2), object-based image analysis (eCognition), radar image analysis (SNAP), Google Earth Engine, drone imagery |
+| Data Analysis & Modelling | R, Python, statistical modelling, ecological and habitat suitability modelling, machine learning |
+| Data Collection & Visualisation | KoboToolbox, GPS-enabled mobile data collection, interactive dashboards |
+
+---
+
+## Languages
+
+| Language | Level |
+|----------|-------|
+| Khmer | Native |
+| English | Professional working proficiency (B2; IELTS, British Council, 2022) |
+| Thai | Good (speaking, listening, reading, writing) |

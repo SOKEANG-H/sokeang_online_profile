@@ -1,80 +1,58 @@
 ---
 title: Research
-description: Research areas, publications, grants, and patents.
+description: Research areas and research projects of Sokeang Hoeun.
 keywords:
   - Research
-  - Publications
-  - Grants
-  - Patents
+  - Eco-epidemiology
+  - Remote Sensing
+  - Spatial Analysis
 ---
 
 # Research
 
-Dr. Doe's research focuses on advancing open-source data science through machine learning and cloud computing.
+Sokeang's research uses spatial analysis, remote sensing, and statistical and ecological modelling to understand how environment, climate, and land use shape disease risk and agricultural production in Cambodia and Southeast Asia.
 
 ## Research Areas
 
-- Data Science
-- Machine Learning
-- Open-Source Software Development
-- Cloud Computing
+- Eco-epidemiology and vector-borne diseases
+- Species distribution and habitat suitability modelling
+- Remote sensing for land cover and agriculture
+- Spatial statistics and machine learning
+- One Health
 
 ---
 
-## Patents
+## Research Projects
 
-- J. Doe, J. Smith. "Method and system for automated data processing." U.S. Patent Application No. 12/345,678, filed January 2025.
-
----
-
-## Books
-
-- **J. Doe** (2026). *Data Science with Python*. Publisher Name. [https://example.com/book](https://example.com/book)
+- **Habitat suitability modelling of domestic mosquitoes in Cambodia** (M.Sc. M2 research, 2024--2025). Ecological model to predict the distribution and relative abundance of the main virus-transmitting mosquito species, using entomological data and satellite-based climate, land-cover, and topography data. IRD Espace-Dev, Phnom Penh.
+- **Ecological and climate determinants of melioidosis in Cambodia** (M.Sc. M1 research, 2023--2024). Spatial and temporal analysis of climate and ecological risk factors for exposure to *Burkholderia pseudomallei*, combining epidemiology, GIS, and remote sensing. IRD Espace-Dev, Phnom Penh.
+- **Land use and land cover mapping for malaria elimination** (EASIMES project). Sentinel-2 image classification for environmental analysis and surveillance.
+- **Landslide possibility assessment in Phuket, Thailand** (B.Sc. senior project, 2017). GIS combined with back-propagation neural networks and support vector machines.
 
 ---
 
 ## Refereed Publications
 
-**Published**: 10 papers | **Citations**: 500+ | *h*-index: 8
+**Published**: 2 papers
 
-:::{dropdown} 2026
+:::{dropdown} 2025
 :open:
 
-**J. Doe**, J. Smith, A. Johnson (2026). "Deep learning for geospatial analysis." *Journal of Data Science*, 15(3), 123--145. [https://doi.org/10.1234/example1](https://doi.org/10.1234/example1)
-
-A. Johnson, **J. Doe** (2026). "Scalable cloud computing for large datasets." *IEEE Transactions on Big Data*, 8(2), 456--470. [https://doi.org/10.1234/example2](https://doi.org/10.1234/example2)
+V. Herbreteau, P.-O. Maquart, **S. Hoeun**, B. Doeurk, F. Girond, S. Boyer (2025). "Spatio-temporal distribution and environmental determinants of dengue vectors in Phnom Penh, Cambodia." *PLOS Neglected Tropical Diseases*, 19(10), e0013667. [https://doi.org/10.1371/journal.pntd.0013667](https://doi.org/10.1371/journal.pntd.0013667)
 
 :::
 
-:::{dropdown} 2025
+:::{dropdown} 2023
+:open:
 
-**J. Doe**, B. Williams (2025). "Open-source tools for reproducible research." *Nature Methods*, 22(1), 78--92. [https://doi.org/10.1234/example3](https://doi.org/10.1234/example3)
-
-C. Brown, **J. Doe**, D. Lee (2025). "Machine learning in environmental science." *Environmental Modelling & Software*, 150, 105--120. [https://doi.org/10.1234/example4](https://doi.org/10.1234/example4)
+E. Legendre, F. Girond, V. Herbreteau, **S. Hoeun**, S. Rebaudet, A. M. Thu, J. D. Rae, L. Lehot, S. Dieng, G. Delmas, F. Nosten, J. Gaudart, J. Landier (2023). "'Forest malaria' in Myanmar? Tracking transmission landscapes in a diversity of environments." *Parasites & Vectors*, 16, 324. [https://doi.org/10.1186/s13071-023-05915-w](https://doi.org/10.1186/s13071-023-05915-w)
 
 :::
 
 ---
 
-## Grants
+## Contributions to Research Programmes
 
-### Funded
-
-:::{dropdown} As PI
-:open:
-
-**J. Doe** (PI). "Scalable Data Science Infrastructure." National Science Foundation (NSF). $500,000. 2024--2027.
-
-**J. Doe** (PI). "Open-Source Tools for Machine Learning." Department of Energy (DOE). $250,000. 2023--2025.
-
-:::
-
-:::{dropdown} As Co-PI
-
-J. Smith (PI), **J. Doe** (Co-PI). "Cloud Computing for Scientific Research." NSF. $750,000. 2024--2028.
-
-:::
-
-### Pending
-
-**J. Doe** (PI). "AI-Driven Data Analytics Platform." NSF. $600,000. 2026--2029. (Submitted March 2026)
+- ECOMORE 2 (Economic Development, Ecosystem Modifications, and Emerging Infectious Diseases Risk Evaluation), funded by the French Development Agency (AFD)
+- FSPI Wat-Health
+- VECAM
