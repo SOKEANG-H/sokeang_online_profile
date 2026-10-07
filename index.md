@@ -32,6 +32,7 @@ Phnom Penh, Cambodia
 **Research Interests:** Data Science, Statistics, Machine Learning & Modelling, Open-Source Spatial Analytics, Remote Sensing, Agriculture, Food Security, Health
 
 [CV (PDF)](cv.pdf) |
+[LinkedIn](https://www.linkedin.com/in/sokeang-heoun-0b58b4117/) |
 [GitHub](https://github.com/SOKEANG-H)
 
 :::

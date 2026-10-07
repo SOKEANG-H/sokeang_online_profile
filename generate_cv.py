@@ -281,6 +281,7 @@ def gen_preamble():
     email: "sokeang.geoinfo@gmail.com",
     homepage: "https://sokeang-h.github.io/sokeang_online_profile",
     github: "SOKEANG-H",
+    linkedin: "sokeang-heoun-0b58b4117",
     address: "Phnom Penh, Cambodia",
     positions: (
       "Statistics & Geospatial Analytics",
