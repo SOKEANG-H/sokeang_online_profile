@@ -2,7 +2,7 @@ version: 1
 project:
   title: SOKEANG HOEUN
   description: Personal website of Sokeang Hoeun, Technical Specialist in statistics and geospatial analytics at FAO Cambodia.
-  # thumbnail: images/profile-thumbnail.webp
+  thumbnail: images/profile.jpg
   authors:
     - name: Sokeang Hoeun
       email: sokeang.geoinfo@gmail.com

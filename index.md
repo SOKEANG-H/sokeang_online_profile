@@ -2,7 +2,7 @@
 title: SOKEANG HOEUN
 subtitle: Statistics & Geospatial Analytics
 description: Sokeang Hoeun, Technical Specialist in statistics and geospatial analytics at FAO Cambodia, applies remote sensing, GIS, and statistical modelling to agriculture, food security, and health.
-# thumbnail: images/profile-thumbnail.webp
+thumbnail: images/profile.jpg
 ---
 
 ::::{grid} 1 1 2 2
@@ -10,9 +10,10 @@ description: Sokeang Hoeun, Technical Specialist in statistics and geospatial an
 :::{grid-item}
 :columns: 12 12 4 4
 
-```{image} logo.png
+```{image} images/profile.jpg
 :alt: Sokeang Hoeun
 :width: 95%
+:class: profile-photo
 ```
 
 :::

@@ -86,3 +86,9 @@ table th:first-child {
   border: 1px solid rgba(128, 128, 128, 0.3);
   border-radius: 4px;
 }
+
+.profile-photo img {
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
