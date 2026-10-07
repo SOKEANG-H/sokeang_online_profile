@@ -87,6 +87,7 @@ table th:first-child {
   border-radius: 4px;
 }
 
+img.profile-photo,
 .profile-photo img {
   border-radius: 50%;
   aspect-ratio: 1 / 1;
