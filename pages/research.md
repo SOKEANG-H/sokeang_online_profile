@@ -14,6 +14,7 @@ Sokeang's research uses spatial analysis, remote sensing, and statistical and ec
 
 ## Research Areas
 
+- Agriculture and food security
 - Eco-epidemiology and vector-borne diseases
 - Species distribution and habitat suitability modelling
 - Remote sensing for land cover and agriculture

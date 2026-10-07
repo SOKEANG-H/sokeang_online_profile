@@ -29,7 +29,7 @@ Phnom Penh, Cambodia
 
 [sokeang.geoinfo@gmail.com](mailto:sokeang.geoinfo@gmail.com)
 
-**Research Interests:** Data Science, Statistics, Machine Learning & Modelling, Open-Source Spatial Analytics, Remote Sensing, Agriculture, Health
+**Research Interests:** Data Science, Statistics, Machine Learning & Modelling, Open-Source Spatial Analytics, Remote Sensing, Agriculture, Food Security, Health
 
 [CV (PDF)](cv.pdf) |
 [GitHub](https://github.com/SOKEANG-H)
