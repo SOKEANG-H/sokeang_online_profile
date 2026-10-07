@@ -130,6 +130,31 @@ SPOT-7 imagery and dengue vector ecology
 
 ---
 
+## Selected Publications
+
+::::{grid} 1 1 2 2
+:class: pub-grid
+
+:::{card} Spatio-temporal distribution and environmental determinants of dengue vectors in Phnom Penh, Cambodia
+:link: https://doi.org/10.1371/journal.pntd.0013667
+V. Herbreteau, P.-O. Maquart, **S. Hoeun**, B. Doeurk, F. Girond, S. Boyer
+
+*PLOS Neglected Tropical Diseases* · 2025
+:::
+
+:::{card} 'Forest malaria' in Myanmar? Tracking transmission landscapes in a diversity of environments
+:link: https://doi.org/10.1186/s13071-023-05915-w
+E. Legendre, F. Girond, V. Herbreteau, **S. Hoeun**, et al.
+
+*Parasites & Vectors* · 2023
+:::
+
+::::
+
+[All publications →](pages/research.md#refereed-publications)
+
+---
+
 ## Recent News
 
 - **2026-09** - Launched this personal website

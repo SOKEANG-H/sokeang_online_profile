@@ -18,22 +18,35 @@ Selected projects in agriculture, public health, and environmental monitoring.
 ## Agriculture & Food Security
 
 ::::{grid} 1 2 3 3
+:class: project-grid
 
 :::{card} Digital Rice Monitoring Platform
 **FAO Cambodia, 2025--present**
-+++
+
+```{image} images/proj_rice.jpg
+:alt: Green rice field in Cambodia
+```
+
 Tools that combine geospatial, remote sensing, and statistical data to monitor rice cultivation and estimate yields, with dashboards for policy makers.
 :::
 
 :::{card} Coffee Suitability Mapping
 **Kofi Co., Ltd, 2024**
-+++
+
+```{image} images/proj_coffee.jpg
+:alt: Coffee tree with ripe red cherries
+```
+
 Remote sensing and land-use analysis in Mondulkiri to identify and estimate areas suitable for coffee plantation.
 :::
 
 :::{card} Precision Agriculture Mapping
 **SMWaypoint Co., Ltd, 2017--2019**
-+++
+
+```{image} images/proj_dem_contours.jpg
+:alt: Illustrative hillshaded elevation map with contour lines of Phnom Kulen, from SRTM data
+```
+
 Satellite and drone image analysis to quantify crop health and greenness, with plantation inventory surveys.
 :::
 
@@ -44,38 +57,55 @@ Satellite and drone image analysis to quantify crop health and greenness, with p
 ## Health & Environment
 
 ::::{grid} 1 2 3 3
+:class: project-grid
 
 :::{card} Dengue Surveillance Dashboard
 **IRD, Phnom Penh**
-+++
+
 Interactive dashboard to monitor and visualise dengue case trends for surveillance and response.
 :::
 
 :::{card} Mosquito Habitat Suitability
 :link: #featured-map-mosquito-sdm
 **IRD Espace-Dev, 2024--2025**
-+++
+
+```{image} ../images/thumb_mosquito.jpg
+:alt: Predicted probability of presence of Aedes aegypti across Cambodia
+```
+
 Random forest ensemble models predicting the probability of presence of *Aedes aegypti*, *Aedes albopictus* and *Culex quinquefasciatus* across Cambodia.
 :::
 
 :::{card} Land Cover for Dengue Vector Ecology
 :link: #featured-map-phnom-penh
 **IRD, Phnom Penh**
-+++
+
+```{image} ../images/thumb_phnompenh.jpg
+:alt: Land cover map of Phnom Penh with dengue vector counts
+```
+
 Land use and land cover map of Phnom Penh from SPOT-7 imagery using object-based image analysis, to study the environmental preferences of the dengue vectors *Aedes aegypti* and *Aedes albopictus*.
 :::
 
 :::{card} Land Cover for Melioidosis and Leptospirosis
 :link: #featured-map-koh-thum
 **IRD Espace-Dev, Koh Thum District, 2019**
-+++
+
+```{image} ../images/thumb_kohthum.jpg
+:alt: Pléiades land cover map of Koh Thum District
+```
+
 Nine-class land use and land cover map from Pléiades imagery using object-based image analysis, to study the ecology of melioidosis (*Burkholderia pseudomallei*) and leptospirosis (*Leptospira*).
 :::
 
 :::{card} Land Cover for Malaria Elimination
 :link: #featured-map-kayin
 **EASIMES project, Kayin State, Myanmar**
-+++
+
+```{image} images/proj_kayin.jpg
+:alt: Landscape types in Kayin State, Myanmar, derived from Sentinel-2 land cover
+```
+
 Ten-class land use and land cover map from Sentinel-2 imagery (2019--2020) using object-based image analysis, to characterise malaria transmission landscapes.
 :::
 
@@ -142,3 +172,11 @@ Nine-class land use and land cover map of Phnom Penh, classified from a SPOT-7 i
 
 Landscape types across the Malaria Elimination Task Force (METF) region of Kayin State, Myanmar, mapped on a 2-km hexagonal grid. They were derived from a ten-class land use and land cover map (dense forest, sparse forest, plantation, cropland, grass/shrubland, bare soil, wetland, road, water, built-up), classified from Sentinel-2 images (2019--2020) using object-based image analysis in eCognition and validated with 600 field and photo-interpreted points (Cohen's Kappa 0.73). Published in Legendre, Girond, Herbreteau, **Hoeun**, et al. (2023), *Parasites & Vectors* 16: 324, [doi:10.1186/s13071-023-05915-w](https://doi.org/10.1186/s13071-023-05915-w) (Fig 3B, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); cropped from the original figure).
 :::
+
+---
+
+```{div}
+:class: image-credits
+
+**Image credits:** Rice field: Department of Foreign Affairs and Trade (Australia), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Dry_season_rice_farming_Cambodia_(10693858543).jpg). Coffee tree: Brian Smith, U.S. Fish and Wildlife Service, public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Coffee_tree_with_many_coffee-cherries_growing_on_it_(by_Brian_Smith).jpg). Elevation map of Phnom Kulen: illustrative, made from NASA SRTM data. All other maps are Sokeang's own work or credited in their captions.
+```

@@ -203,8 +203,9 @@ img.profile-photo,
   color: var(--brand);
 }
 
-/* Map gallery thumbnails */
-.map-gallery .myst-card img {
+/* Map gallery and project card thumbnails */
+.map-gallery .myst-card img,
+.project-grid .myst-card img {
   width: 100%;
   aspect-ratio: 3 / 2;
   object-fit: cover;
@@ -311,4 +312,109 @@ img.profile-photo,
 /* Pull the contact buttons closer to the intro */
 .profile-actions {
   margin-top: -1.25rem !important;
+}
+
+.image-credits p {
+  font-size: 0.8rem;
+  color: var(--myst-color-text-tertiary, #6b7280);
+}
+
+.project-grid .myst-card-body p {
+  margin: 0.5rem 0;
+}
+
+/* Selected publications */
+.pub-grid .myst-card-title {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.pub-grid .myst-card-body p {
+  margin: 0.4rem 0;
+  font-size: 0.9rem;
+  color: var(--myst-color-text-secondary, #4b5563);
+}
+
+.pub-grid .myst-card-body p em {
+  color: var(--brand);
+  font-style: italic;
+  font-weight: 600;
+}
+
+/* Experience table on the About page shown as a timeline
+   (the table itself stays, because generate_cv.py reads it) */
+#experience + div table,
+#experience + div tbody,
+#experience + div tr,
+#experience + div td {
+  display: block;
+  border: none;
+  background: transparent;
+}
+
+#experience + div table {
+  margin: 1.5rem 0 1rem 0.5rem;
+}
+
+#experience + div tr:first-child {
+  display: none;
+}
+
+#experience + div tr {
+  position: relative;
+  padding: 0 0 1.5rem 1.6rem;
+  border-left: 2px solid var(--brand-bright);
+}
+
+#experience + div tr:last-child {
+  border-left-color: transparent;
+}
+
+#experience + div tr::before {
+  content: "";
+  position: absolute;
+  left: -7px;
+  top: 0.2rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--myst-color-bg, #fff);
+  border: 3px solid var(--brand);
+}
+
+#experience + div td {
+  padding: 0;
+  white-space: normal !important;
+}
+
+#experience + div td:nth-child(1) {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--brand);
+  letter-spacing: 0.02em;
+}
+
+#experience + div td:nth-child(2) {
+  margin-top: 0.15rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+#experience + div td:nth-child(3) {
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+  color: var(--myst-color-text-secondary, #4b5563);
+}
+
+#experience + div {
+  overflow: visible !important;
+}
+
+#experience + div table {
+  width: auto;
+  max-width: 100%;
+}
+
+#experience + div tr {
+  box-sizing: border-box;
 }
