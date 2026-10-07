@@ -45,8 +45,8 @@ project:
     - file: pages/contact.md
 site:
   options:
-    logo: logo.png
-    logo_dark: logo.png
+    logo: logo.svg
+    logo_dark: logo.svg
     favicon: fav.ico
     style: custom.css
     # analytics_google: G-XXXXXXXXXX

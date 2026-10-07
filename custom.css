@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap");
+
 .myst-fm-downloads-dropdown {
   display: none !important;
 }
@@ -92,4 +94,221 @@ img.profile-photo,
   border-radius: 50%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
+}
+
+/* ---------- Clean professional theme (UN blue) ---------- */
+html:root:not(.dark) {
+  --myst-color-link: #0a5ea8;
+  --myst-color-link-hover: #009edb;
+  --myst-color-link-underline: #009edb;
+  --myst-color-active: #0a5ea8;
+  --myst-color-active-bg: rgba(0, 158, 219, 0.12);
+  --myst-color-focus-ring: #009edb;
+  --brand: #0a5ea8;
+  --brand-bright: #009edb;
+  --brand-tint: #eaf5fc;
+  --card-border: #dce4ec;
+}
+
+html.dark {
+  --myst-color-link: #5cc3f0;
+  --myst-color-link-hover: #8fd6f5;
+  --myst-color-link-underline: #5cc3f0;
+  --myst-color-active: #5cc3f0;
+  --myst-color-active-bg: rgba(0, 158, 219, 0.2);
+  --brand: #5cc3f0;
+  --brand-bright: #33b5e8;
+  --brand-tint: rgba(0, 158, 219, 0.12);
+  --card-border: #3b4652;
+}
+
+/* Thin blue rule under the top bar */
+.myst-top-nav {
+  border-bottom: 3px solid var(--brand-bright);
+}
+
+/* Hide the repeated author / affiliation line under page titles */
+.myst-fm-authors-affiliations {
+  display: none;
+}
+
+.myst-fm-block-subtitle {
+  color: var(--brand);
+}
+
+/* Section headings with a light underline */
+article h2 {
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid var(--brand-tint);
+}
+
+/* White cards with a thin blue border that lift on hover */
+.myst-card {
+  border: 1px solid var(--brand-bright) !important;
+  border-radius: 6px !important;
+  box-shadow: none !important;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.myst-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(10, 94, 168, 0.15) !important;
+}
+
+.myst-card-footer,
+.myst-card-header {
+  background: transparent !important;
+  border-color: var(--card-border) !important;
+}
+
+/* Blue ring around the profile photo */
+img.profile-photo,
+.profile-photo img {
+  box-shadow: 0 0 0 4px var(--myst-color-bg, #fff), 0 0 0 6px var(--brand-bright);
+}
+
+/* Key numbers strip on the home page */
+.key-stats ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+@media (min-width: 640px) {
+  .key-stats ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.key-stats li {
+  margin: 0;
+  padding: 0.75rem 1rem;
+  background: var(--brand-tint);
+  border-radius: 6px;
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+.key-stats li::marker {
+  content: "";
+}
+
+.key-stats li strong {
+  display: block;
+  font-size: 1.75rem;
+  line-height: 1.1;
+  color: var(--brand);
+}
+
+/* Map gallery thumbnails */
+.map-gallery .myst-card img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  margin: 0 !important;
+  border-radius: 4px;
+}
+
+/* Same typeface as the CV PDF (Source Sans) */
+body,
+.article,
+article {
+  font-family: "Source Sans 3", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* Hide the "edit this page" pencil above page titles */
+.myst-fm-edit-link {
+  display: none;
+}
+
+/* CV / LinkedIn / GitHub as buttons */
+.profile-actions p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  margin: 0.5rem 0 0;
+}
+
+.profile-actions a {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.92rem;
+  border: 2px solid var(--brand);
+  border-radius: 999px;
+  color: var(--brand) !important;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.profile-actions a:hover {
+  background: var(--brand-tint);
+}
+
+.profile-actions a:last-child {
+  background: var(--brand);
+  color: #fff !important;
+}
+
+.profile-actions a:last-child:hover {
+  background: var(--brand-bright);
+  border-color: var(--brand-bright);
+}
+
+html.dark .profile-actions a:last-child {
+  color: #0b1a26 !important;
+}
+
+.profile-actions .link-icon,
+.profile-actions svg {
+  display: none !important;
+}
+
+/* Short bio at the top of the home page */
+@media (min-width: 1280px) {
+  .bio-lead {
+    margin-top: -1.9rem !important;
+  }
+}
+
+.bio-lead p {
+  margin-top: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--myst-color-text-secondary, #4b5563);
+}
+
+/* Keep the photo a sensible size on phones */
+img.profile-photo,
+.profile-photo img {
+  display: block;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Balance the photo and the details beside it */
+.intro-grid {
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.intro-grid img.profile-photo,
+.intro-grid .profile-photo img {
+  max-width: 250px;
+}
+
+.intro-grid p {
+  margin: 0.5rem 0;
+}
+
+/* Pull the contact buttons closer to the intro */
+.profile-actions {
+  margin-top: -1.25rem !important;
 }
