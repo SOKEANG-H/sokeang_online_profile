@@ -55,7 +55,7 @@ Interactive dashboard to monitor and visualise dengue case trends for surveillan
 :link: #featured-map-mosquito-sdm
 **IRD Espace-Dev, 2024--2025**
 +++
-Random forest ensemble models predicting the probability of presence of *Aedes aegypti*, *Aedes albopictus* and *Culex quinquefasciatus* across Cambodia, with prediction uncertainty.
+Random forest ensemble models predicting the probability of presence of *Aedes aegypti*, *Aedes albopictus* and *Culex quinquefasciatus* across Cambodia.
 :::
 
 :::{card} Land Cover for Dengue Vector Ecology
@@ -86,27 +86,27 @@ Ten-class land use and land cover map from Sentinel-2 imagery (2019--2020) using
 (featured-map-mosquito-sdm)=
 ### Mosquito Habitat Suitability in Cambodia
 
-Results of Sokeang's M.Sc. (M2) internship at IRD Espace-Dev (2024--2025). Each map shows (a) the probability of presence predicted by a mixed random forest ensemble model, from blue (0, low) to red (1, high), and (b) the prediction uncertainty as the coefficient of variation (CV), in classes based on quantile values (minimum, 1st quartile, mean, 3rd quartile, maximum).
+Results of Sokeang's M.Sc. (M2) internship at IRD Espace-Dev (2024--2025). Each map shows the average probability of presence predicted by a random forest ensemble model, from blue (0, low) to red (1, high).
 
 ::::{tab-set}
 
 :::{tab-item} Aedes aegypti
 ```{image} images/sdm_aedes_aegypti.jpg
-:alt: Maps of Cambodia showing (a) the predicted probability of presence of Aedes aegypti and (b) its prediction uncertainty
+:alt: Map of Cambodia showing the average predicted probability of presence of Aedes aegypti
 :width: 100%
 ```
 :::
 
 :::{tab-item} Aedes albopictus
 ```{image} images/sdm_aedes_albopictus.jpg
-:alt: Maps of Cambodia showing (a) the predicted probability of presence of Aedes albopictus and (b) its prediction uncertainty
+:alt: Map of Cambodia showing the average predicted probability of presence of Aedes albopictus
 :width: 100%
 ```
 :::
 
 :::{tab-item} Culex quinquefasciatus
 ```{image} images/sdm_culex_quinquefasciatus.jpg
-:alt: Maps of Cambodia showing (a) the predicted probability of presence of Culex quinquefasciatus and (b) its prediction uncertainty
+:alt: Map of Cambodia showing the average predicted probability of presence of Culex quinquefasciatus
 :width: 100%
 ```
 :::
