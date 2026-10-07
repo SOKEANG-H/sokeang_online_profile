@@ -481,7 +481,9 @@ def gen_grants(research):
 
 def gen_software(software):
     """Generate Open-Source Software section from software.md."""
-    cards = parse_cards(software)
+    # Only GitHub repositories count as software; other card links (e.g.
+    # in-page anchors to featured maps) are website navigation.
+    cards = [c for c in parse_cards(software) if c[1].startswith("https://github.com/")]
     if not cards:
         return ""
     lines = ["= Open-Source Software", ""]
