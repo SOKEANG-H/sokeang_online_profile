@@ -67,7 +67,7 @@ Education, experience, and skills
 
 :::{card} Research
 :link: pages/research
-Eco-epidemiology, species distribution modelling, remote sensing
+Agriculture, eco-epidemiology, remote sensing and modelling
 :::
 
 :::{card} Projects
@@ -158,8 +158,8 @@ E. Legendre, F. Girond, V. Herbreteau, **S. Hoeun**, et al.
 ## Recent News
 
 - **2026-09** - Launched this personal website
-- **2026-03** - Delivered a two-week Machine Learning for Rice Yield Modelling training for NIS and MAFF (March and April 2026)
+- **2026-04** - Delivered week 2 of the Machine Learning for Rice Yield Modelling training for NIS and MAFF
+- **2026-03** - Delivered week 1 of the Machine Learning for Rice Yield Modelling training for NIS and MAFF
 - **2025-11** - Joined FAO Cambodia as Technical Specialist (Statistics and Geospatial Analytics)
-- **2025-07** - Completed the M.Sc. in Eco-Epidemiology of Emerging Diseases, University of Montpellier
 
 [See all news →](pages/news)

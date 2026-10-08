@@ -60,7 +60,7 @@ Satellite and drone image analysis to quantify crop health and greenness, with p
 :class: project-grid
 
 :::{card} Dengue Surveillance Dashboard
-**IRD, Phnom Penh**
+**IRD Espace-Dev, Phnom Penh**
 
 Interactive dashboard to monitor and visualise dengue case trends for surveillance and response.
 :::
@@ -73,18 +73,18 @@ Interactive dashboard to monitor and visualise dengue case trends for surveillan
 :alt: Predicted probability of presence of Aedes aegypti across Cambodia
 ```
 
-Random forest ensemble models predicting the probability of presence of *Aedes aegypti*, *Aedes albopictus* and *Culex quinquefasciatus* across Cambodia.
+Probability of presence of three mosquito species across Cambodia, from random forest ensemble models.
 :::
 
 :::{card} Land Cover for Dengue Vector Ecology
 :link: #featured-map-phnom-penh
-**IRD, Phnom Penh**
+**IRD Espace-Dev, Phnom Penh**
 
 ```{image} ../images/thumb_phnompenh.jpg
 :alt: Land cover map of Phnom Penh with dengue vector counts
 ```
 
-Land use and land cover map of Phnom Penh from SPOT-7 imagery using object-based image analysis, to study the environmental preferences of the dengue vectors *Aedes aegypti* and *Aedes albopictus*.
+SPOT-7 land cover map of Phnom Penh, linked to dengue vector counts at 40 pagodas.
 :::
 
 :::{card} Land Cover for Melioidosis and Leptospirosis
@@ -95,18 +95,18 @@ Land use and land cover map of Phnom Penh from SPOT-7 imagery using object-based
 :alt: Pléiades land cover map of Koh Thum District
 ```
 
-Nine-class land use and land cover map from Pléiades imagery using object-based image analysis, to study the ecology of melioidosis (*Burkholderia pseudomallei*) and leptospirosis (*Leptospira*).
+Pléiades land cover map of Koh Thum District for melioidosis and leptospirosis ecology.
 :::
 
 :::{card} Land Cover for Malaria Elimination
 :link: #featured-map-kayin
-**EASIMES project, Kayin State, Myanmar**
+**IRD Espace-Dev, EASIMES project, Kayin State, Myanmar**
 
 ```{image} images/proj_kayin.jpg
 :alt: Landscape types in Kayin State, Myanmar, derived from Sentinel-2 land cover
 ```
 
-Ten-class land use and land cover map from Sentinel-2 imagery (2019--2020) using object-based image analysis, to characterise malaria transmission landscapes.
+Sentinel-2 land cover map used to characterise malaria transmission landscapes.
 :::
 
 ::::

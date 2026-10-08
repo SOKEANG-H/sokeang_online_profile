@@ -1,9 +1,8 @@
 ---
 title: Training & Talks
-description: Training sessions delivered, presentations, and workshops attended by Sokeang Hoeun.
+description: Training sessions delivered and conference presentations by Sokeang Hoeun.
 keywords:
   - Training
-  - Workshops
   - Presentations
   - GIS
   - Remote Sensing
@@ -13,12 +12,18 @@ keywords:
 
 Sokeang delivers hands-on training in GIS, remote sensing, and spatial analysis for researchers, students, and project partners.
 
-## Training Materials
+## Training Delivered
 
-Courses and open-access tutorials that Sokeang co-developed and taught.
+Courses Sokeang designed and taught, with open-access tutorials where available.
 
 ::::{grid} 1 2 3 3
 :class: project-grid
+
+:::{card} Machine Learning for Rice Yield Modelling
+**FAO Cambodia, for NIS and MAFF, March and April 2026**
+
+Two-week training for staff of the National Institute of Statistics (NIS) and the Ministry of Agriculture, Forestry and Fisheries (MAFF). Prepared the tutorials and training data, taught hands-on sessions in Google Colab, and wrote the presentations and supporting materials.
+:::
 
 :::{card} R-Spatial for One Health 2025
 :link: http://rspatial2025.kheobs.org/
@@ -69,38 +74,9 @@ Tutorials and images: IRD Espace-Dev GeoHealth Training Series, [CC BY-NC-SA 4.0
 
 ---
 
-## Training Delivered
-
-:::{dropdown} 2025--present (FAO Cambodia)
-:open:
-- Machine Learning for Rice Yield Modelling. Training for staff of the *National Institute of Statistics (NIS)* and the *Ministry of Agriculture, Forestry and Fisheries (MAFF)*. Phnom Penh, Cambodia. Two-week training in two sessions: March 2026 (week 1) and April 2026 (week 2).
-- Training preparation and delivery: prepared tutorials and training data (data engineering), delivered hands-on sessions in Google Colab, and developed presentations and supplementary explanatory materials.
-:::
-
-:::{dropdown} 2024--2025 (IRD Espace-Dev)
-- [Mapping and spatial analyses in R for One Health studies](http://rspatial2025.kheobs.org/) (R-Spatial Training for One Health 2025). *KHEOBS Laboratory, Institute of Technology of Cambodia and IRD* (PREACTS AfriCam project). Phnom Penh, Cambodia. May 5--9, 2025.
-:::
-
-:::{dropdown} 2019--2023 (IRD, Institut Pasteur du Cambodge)
-- [Mapping and spatial analyses in R for One Health studies](http://rspatial4onehealth.geohealthresearch.org/). *IRD and Institut Pasteur du Cambodge* (OHSEA and EASIMES projects). Phnom Penh, Cambodia. November 28--December 2, 2022.
-- Geographic Information System (GIS) training with [QGIS](http://qgis.geohealthresearch.org/). *Royal University of Agriculture* (VECAM project). Phnom Penh, Cambodia.
-- Remote sensing training on object-based image analysis with eCognition. *Institute of Technology of Cambodia*. Phnom Penh, Cambodia.
-:::
-
----
-
 ## Conference Presentations
 
 :::{dropdown} 2022
 :open:
 - "Land use/land cover classification (Sentinel-2 satellite image classification) for environment analysis and surveillance to improve malaria elimination strategy (EASIMES project)." *Geospatial Approaches in One Health Study Workshop*. Phnom Penh, Cambodia. December 2022.
-:::
-
----
-
-## Workshops Attended
-
-:::{dropdown} 2017
-:open:
-- Global Project-Based Learning Program on technology innovation. *Shibaura Institute of Technology*. Tokyo, Japan. June 20--30, 2017.
 :::

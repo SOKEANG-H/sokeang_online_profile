@@ -5,7 +5,7 @@ description: Contact information for collaboration or questions.
 
 # Contact
 
-Feel free to reach out about collaboration on geospatial analysis, remote sensing, or eco-epidemiology.
+Feel free to reach out about collaboration on geospatial analysis, remote sensing, agriculture and food security, or eco-epidemiology.
 
 **Email:** [sokeang.geoinfo@gmail.com](mailto:sokeang.geoinfo@gmail.com)
 

@@ -604,8 +604,21 @@ def _gen_talks_section(talks, heading, cv_title, include_summary=False):
 
 
 def gen_training(talks):
-    """Generate Training Delivered section from talks.md."""
-    return _gen_talks_section(talks, "## Training Delivered", "Training Delivered")
+    """Generate Training Delivered section from the cards in talks.md."""
+    section = extract_section(talks, "## Training Delivered")
+    items = []
+    for m in re.finditer(
+        r":::\{card\}[ \t]+([^\n]+?)\n(.*?)\n:::(?![:\{])", section, re.DOTALL
+    ):
+        title, body = m.group(1).strip(), m.group(2)
+        link = re.search(r"^:link:\s*(\S+)", body, re.MULTILINE)
+        where = re.search(r"^\*\*(.+?)\*\*", body, re.MULTILINE)
+        name = f"[{title}]({link.group(1)})" if link else title
+        entry = f"{name}. {where.group(1)}." if where else f"{name}."
+        items.append(f"  - {escape_typst(entry)}")
+    if not items:
+        return ""
+    return "= Training Delivered\n\n#resume-item[\n" + "\n".join(items) + "\n]"
 
 
 def gen_workshops_attended(talks):
