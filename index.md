@@ -50,7 +50,7 @@ Phnom Penh, Cambodia
 
 - **9+** years in geospatial analysis
 - **2** peer-reviewed publications
-- **4** training programmes delivered
+- **5** training programmes delivered
 - **5** organisations, from FAO to IRD
 :::
 

@@ -13,6 +13,62 @@ keywords:
 
 Sokeang delivers hands-on training in GIS, remote sensing, and spatial analysis for researchers, students, and project partners.
 
+## Training Materials
+
+Courses and open-access tutorials that Sokeang co-developed and taught.
+
+::::{grid} 1 2 3 3
+:class: project-grid
+
+:::{card} R-Spatial for One Health 2025
+:link: http://rspatial2025.kheobs.org/
+**KHEOBS Lab (ITC–IRD), 5–9 May 2025**
+
+```{image} images/train_r2025.jpg
+:alt: Shiny web app with an interactive Leaflet map of a district in Cambodia, from the 2025 tutorial
+```
+
+Mapping and spatial analysis in R for One Health, with new chapters on R programming, Shiny dashboards and Docker (PREACTS AfriCam project, PREZODE).
+:::
+
+:::{card} R-Spatial for One Health 2022
+:link: http://rspatial4onehealth.geohealthresearch.org/
+**IRD–Institut Pasteur du Cambodge, 28 Nov–2 Dec 2022**
+
+```{image} images/train_r2022.jpg
+:alt: Choropleth map of disease incidence by district in Cambodia made with R
+```
+
+First edition of the R mapping and spatial analysis course, adapted to Cambodia and health applications (OHSEA and EASIMES projects).
+:::
+
+:::{card} QGIS Tutorial
+:link: http://qgis.geohealthresearch.org/
+**Royal University of Agriculture (VECAM project)**
+
+```{image} images/train_qgis.jpg
+:alt: QGIS map layout of neonatal mortality rate in Cambodia
+```
+
+Hands-on QGIS course: vector and raster data, map styling and composing print layouts, for veterinary and public health students.
+:::
+
+:::{card} Remote Sensing with Object-Based Image Analysis
+**Institute of Technology of Cambodia**
+
+Hands-on remote sensing course on object-based image analysis (OBIA) of satellite imagery with eCognition, for land use and land cover mapping.
+:::
+
+::::
+
+```{div}
+:class: image-credits
+
+Tutorials and images: IRD Espace-Dev GeoHealth Training Series, [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/); map tiles © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors.
+```
+
+---
+
 ## Training Delivered
 
 :::{dropdown} 2025--present (FAO Cambodia)
@@ -22,11 +78,12 @@ Sokeang delivers hands-on training in GIS, remote sensing, and spatial analysis 
 :::
 
 :::{dropdown} 2024--2025 (IRD Espace-Dev)
-- Mapping and spatial analysis using R for One Health studies. Phnom Penh, Cambodia.
+- [Mapping and spatial analyses in R for One Health studies](http://rspatial2025.kheobs.org/) (R-Spatial Training for One Health 2025). *KHEOBS Laboratory, Institute of Technology of Cambodia and IRD* (PREACTS AfriCam project). Phnom Penh, Cambodia. May 5--9, 2025.
 :::
 
 :::{dropdown} 2019--2023 (IRD, Institut Pasteur du Cambodge)
-- Geographic Information System (GIS) training. *Royal University of Agriculture* (VECAM project). Phnom Penh, Cambodia.
+- [Mapping and spatial analyses in R for One Health studies](http://rspatial4onehealth.geohealthresearch.org/). *IRD and Institut Pasteur du Cambodge* (OHSEA and EASIMES projects). Phnom Penh, Cambodia. November 28--December 2, 2022.
+- Geographic Information System (GIS) training with [QGIS](http://qgis.geohealthresearch.org/). *Royal University of Agriculture* (VECAM project). Phnom Penh, Cambodia.
 - Remote sensing training on object-based image analysis with eCognition. *Institute of Technology of Cambodia*. Phnom Penh, Cambodia.
 :::
 
